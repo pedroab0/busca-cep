@@ -19,6 +19,19 @@ BuscaCEP
 
 ---
 
+### 🧰 Requisitos
+
+- [x] Desenvolver uma aplicação utilizando um CEP para obter o endereço completo via API dos Correios (ViaCep ou BrasilAPI).
+- [x] Obrigatórios: React, Next, Typescript, Tailwind CSS;
+- [x] Desejáveis: SWR, StoryBook (apenas um componente para mostrar o conhecimento).
+
+Extras
+
+- [x] Dark mode
+- [x] Design no figma
+
+---
+
 ## 🎨 Design
 
 Você pode visualizar o design do projeto através do link abaixo:
@@ -27,6 +40,8 @@ Você pode visualizar o design do projeto através do link abaixo:
 <a href="https://www.figma.com/file/3XFsfW9WfHwlATE9JVC3gn/Teste-T%C3%A9cnico-Kivid">
 	  <img alt="Acessar o design no Figma" src="https://img.shields.io/badge/Figma-F24E1E?style=for-the-badge&logo=figma&logoColor=white">
 </a>
+
+<h4>OBS.: O projeto também suporta dark e light mode. É necessário apenas trocar entre as opções nas configurações de aparência do seu navegador</h4>
 
 ---
 
