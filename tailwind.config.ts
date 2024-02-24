@@ -8,10 +8,22 @@ const config: Config = {
   ],
   theme: {
     extend: {
-      backgroundImage: {
-        "gradient-radial": "radial-gradient(var(--tw-gradient-stops))",
-        "gradient-conic":
-          "conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))",
+      content: {
+        'search': 'url("/src/assets/icons/MagnifyingGlass.svg")'
+      },
+      colors: {
+        grey: {
+          100: '#ebeeef',
+          200: '#cfd5d9',
+          300: '#c1c1c4',
+          500: '#50505c',
+          700: '#313137',
+          800: '#1c1c1f',
+          900: '#121214',
+        },
+        cyan: {
+          500: '#0ab9e3',
+        }
       },
     },
   },
