@@ -7,7 +7,7 @@ export interface ButtonProps {
 }
 
 export const Button = ({
-  label, isLoading = false ,isDisabled = false, type = 'button', onClick
+  label, isLoading = false, isDisabled = false, type = 'button', onClick
 }: ButtonProps) => {
   return (
     <button
