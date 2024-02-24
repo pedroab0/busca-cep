@@ -23,7 +23,7 @@ export function AddressSearch ({ setAddress }: AddressSearchProps) {
     register,
     handleSubmit,
     watch,
-    formState: { errors, isValid, isDirty, isSubmitSuccessful },
+    formState: { isValid, isDirty, isSubmitSuccessful },
   } = useForm<InputInterface>()
   watch("cepSearchInput")
 
@@ -51,8 +51,6 @@ export function AddressSearch ({ setAddress }: AddressSearchProps) {
     }
   }, [data, setAddress, error])
 
-  console.log(errors)
-
   return (
     <div className="flex flex-col items-center gap-16">
       <form className="flex flex-col items-center gap-4" onSubmit={handleSubmit(onSubmit)}>
@@ -61,10 +59,7 @@ export function AddressSearch ({ setAddress }: AddressSearchProps) {
           registerFunction={
             register("cepSearchInput", {
             required: true,
-            pattern: {
-              value: /^\d{8}$/,
-              message: 'Escreva oito dígitos'
-            },
+            pattern: /^\d{8}$/,
           })
         } />
         <Button type="submit" isLoading={isLoading} isDisabled={!isValid || !isDirty} label="Fazer busca" />
