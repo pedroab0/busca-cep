@@ -19,6 +19,17 @@ BuscaCEP
 
 ---
 
+## 🎨 Design
+
+Você pode visualizar o design do projeto através do link abaixo:
+
+>Design
+<a href="https://www.figma.com/file/3XFsfW9WfHwlATE9JVC3gn/Teste-T%C3%A9cnico-Kivid">
+	  <img alt="Acessar o design no Figma" src="https://img.shields.io/badge/Figma-F24E1E?style=for-the-badge&logo=figma&logoColor=white">
+</a>
+
+---
+
 ##  🧪 Tecnologias
 
   
@@ -62,16 +73,7 @@ $ npx create-next-app@latest
 
 
  ---
-## 🎨 Design
 
-Você pode visualizar o design do projeto através do link abaixo:
-
->Design
-<a href="https://www.figma.com/file/3XFsfW9WfHwlATE9JVC3gn/Teste-T%C3%A9cnico-Kivid">
-	  <img alt="Acessar o design no Figma" src="https://img.shields.io/badge/Figma-F24E1E?style=for-the-badge&logo=figma&logoColor=white">
-</a>
-
----
 
 ##  🚀 Como executar
 
