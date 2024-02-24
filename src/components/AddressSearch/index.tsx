@@ -4,9 +4,13 @@ import useSWR from "swr";
 import { useForm, SubmitHandler } from "react-hook-form"
 import { Dispatch, SetStateAction, useEffect, useState } from "react";
 
-import { FetchedAddressError, FetchedAddressInterface,TranslatedAddressInterface, InputInterface } from "@/types";
+import { FetchedAddressError, FetchedAddressInterface,TranslatedAddressInterface } from "@/types";
 import { Button, Input } from "@/components";
 import { fetcher } from "@/services/fetcher";
+
+export interface InputInterface {
+  [cepSearchInput: string]: number
+}
 
 interface AddressSearchProps {
   setAddress: Dispatch<SetStateAction<TranslatedAddressInterface | undefined>>

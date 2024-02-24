@@ -1,10 +1,9 @@
-import { InputInterface } from '@/types'
-import { UseFormRegister } from 'react-hook-form'
+import { UseFormRegisterReturn } from 'react-hook-form'
 
 import SearchIcon from '@/assets/MagnifyingGlass.svg'
 
 export interface InputProps {
-  registerFunction: UseFormRegister<InputInterface>
+  registerFunction: UseFormRegisterReturn<string>
   inputName: string
 }
 
