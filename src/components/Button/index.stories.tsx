@@ -1,25 +1,17 @@
-// dependencies
-import React from 'react';
-import { ComponentStory, Meta } from '@storybook/react';
+import type { Meta, StoryObj } from '@storybook/react';
 
-// component
-import { Button, ButtonProps } from '.';
+import { Button } from '.';
 
-
-export default {
-  title: 'Button',
+const meta: Meta<typeof Button> = {
   component: Button,
-} as Meta<typeof Button>;
-
-const Template: ComponentStory<typeof Button> = (
-  props: ButtonProps
-) => <Button {...props} />;
-
-const onClick = (event: React.MouseEvent<HTMLButtonElement, MouseEvent>) => {
-  console.log(event);
 };
 
-export const Default = Template.bind({});
-Default.args = {
-  label: 'Fazer busca',
+export default meta;
+type Story = StoryObj<typeof Button>;
+
+
+export const Default: Story = {
+  args: {
+    label: 'Fazer busca'
+  }
 };
