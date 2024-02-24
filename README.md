@@ -18,16 +18,6 @@ BuscaCEP
 
 
 ---
-## 📑 Índice
-
-<p align="center">
- <a href="#-tecnologias">Tecnologias</a> •
- <a href="#-como-executar">Como executar</a> • 
-  <a href="#-lighthouse-score">Lighthouse</a> • 
- <a href="#-autor">Autor</a>
-</p>
-
----
 
 ##  🧪 Tecnologias
 
@@ -58,6 +48,8 @@ Esse projeto foi desenvolvido com as seguintes tecnologias:
 	</a>
 </div>
 
+<br/>
+
 - Bootstrapped com [create next-app](https://nextjs.org/docs)
 ```bash
 $ npx create-next-app@latest
@@ -74,7 +66,7 @@ $ npx create-next-app@latest
 
 Você pode visualizar o design do projeto através do link abaixo:
 
->Layout
+>Design
 <a href="https://www.figma.com/file/3XFsfW9WfHwlATE9JVC3gn/Teste-T%C3%A9cnico-Kivid">
 	  <img alt="Acessar o design no Figma" src="https://img.shields.io/badge/Figma-F24E1E?style=for-the-badge&logo=figma&logoColor=white">
 </a>
@@ -115,13 +107,13 @@ $ npm run dev
 
 ##### Iniciar o Storybook
 ```bash
-$ npm storybook
+$ npm run storybook
 ```
 
 ---
 
  ### 📘 Decisões Técnicas
-<h4>App Router vs Pages Router?<h4/>
+<h4>App Router vs Pages Router?</h4>
 
 Optei pelo app router por ser a configuração recomendada pela Vercel e não ter sido especificado no requisitos.
 
